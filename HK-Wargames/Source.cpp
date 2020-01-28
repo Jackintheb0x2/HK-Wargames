@@ -67,7 +67,7 @@ void AICalculation()
 		if (human_prediction > targetLocation)
 		{
 			cout << "Too high!\n";
-			human_searchGridHighNumber = human_prediction - 1;
+			human_searchGridHighNumber = human_prediction - 1; 
 		}
 		else if (AI_binary_prediction < targetLocation)
 		{
